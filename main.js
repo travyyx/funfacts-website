@@ -18,12 +18,12 @@ function get_fact() {
   else if (language == "fr") {
 
     lang = "French";
-    lang_indicator.innerHTML =  '<h4 id="lang">Translated in ' + lang + ' by <span>Microsoft Azure Text Translator.</span></h4>'
+    lang_indicator.innerHTML =  '<h4 id="lang">Translated in ' + lang + ' by <span>Microsoft Azure Text Translator for RapidAPI.</span></h4>'
   }
   else if (language == "es") {
 
     lang = "Spanish";
-    lang_indicator.innerHTML = '<h4 id="lang">Translated in ' + lang + ' by <span>Microsoft Azure Text Translator.</span></h4>'
+    lang_indicator.innerHTML = '<h4 id="lang">Translated in ' + lang + ' by <span>Microsoft Azure Text Translator for RapidAPI.</span></h4>'
   }
   get_fact_data(language)
 
