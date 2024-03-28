@@ -14,4 +14,4 @@ Welcome to the Fun Facts Website! This website generates fun facts and provides 
 - CSS
 - JavaScript
 - Microsoft Azure Text Translation API for RapidAPI (for language translation).
-- Api-ninjas Fun Facst API.
+- Api-ninjas Fun Facts API.
