@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Get fun facts about everything in 3 languages.">
+  <meta name="author" content="Ayomide Travis Jack">
+  <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+  <meta name="keywords" content="Fun Facts Search">
+  <link rel="stylesheet" href="style.css">
+  <title>Fun Facts.</title>
+</head>
+<body>
+  <div class="wrapper">
+     <div class="form">
+      <header>
+        <h1>Fun Facts</h1>
+        <p>Get fun facts about everything in 3 languages.</p>
+       </header>
+       <label for="">Select your language</label>
+       <select id="language">
+         <option value="en" selected="selected">English</option>
+         <option value="fr">Français</option>
+         <option value="es">Español</option>
+       </select>
+      <button class="get" onclick="get_fact()">Get a fact.</button>
+      <br>
+      <h4>&copy; 2024, Ayomide (@octojack5).</h4>
+     </div>
+     <div class="fact-result">
+      <h1>The Fact.</h1>
+      <p class="fact">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla eligendi quos, illum maxime accusamus, voluptatibus reiciendis assumenda impedit iure aperiam deleniti inventore laudantium, ad provident fugiat facilis quod. Natus, illo.</p>
+      <h4 id="lang">Translated in French by <span>Microsoft Azure Text Translator.</span></h4>
+     </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
